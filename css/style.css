@@ -136,4 +136,43 @@ main .container img{
     margin-right: 30px;
 }
 
+/*FOOTER*/
 
+footer {
+    background-color: #1A1A1A;
+    height: 100px;
+}
+
+
+footer > .container  {
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+footer .container h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.info-site{
+    color: white;
+}
+
+footer .container .info-site nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-left: 0;
+    padding-right: 10px;
+    
+}
+
+footer .container .info-site nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons {
+    color: white;
+}
