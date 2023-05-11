@@ -1,0 +1,133 @@
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GENERAL*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*HEADER*/
+
+header {
+    background-color: #FF6900;
+    
+}
+
+header .container > * {
+    width: calc(100% / 3);
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
+header .container nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+    
+}
+
+header .container nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+header .container div img{
+    height: 30px;
+    position: absolute;
+    left: 90px;
+    
+}
+
+.icons{
+    color: white;
+    display: flex;
+}
+
+.icons > * {
+    padding-right: 10px;
+    justify-content: flex-end;
+}
+
+
+/*MAIN*/
+
+main .container {
+    margin-top: 20px;
+}
+
+main .container > *{
+    width: calc(100% / 3);
+}
+
+main .container img{
+    width: 100%;
+}
+
+.col-1-1 {
+    position: relative;
+    max-width: 100%;
+}
+
+
+.img {
+    display: block;
+}
+.img-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 2sec ease;
+}
+
+.col-1-1:hover .img-hover{
+    opacity: 1;
+}
+
+.price-tag-big {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+
+.price {
+    background-color: #FF0000;
+    font-weight: 500;
+}
+
+.info {
+    background-color: #008000;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.heart {
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    padding: 15px 10px;
+}
+/*DEBUG*/
+
+
